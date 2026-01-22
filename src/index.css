@@ -1,0 +1,83 @@
+:root {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #d4af7f;
+  background-color: #0a0015;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0a0015;
+  color: #d4af7f;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #aa22ff;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid #8800ee;
+  outline-offset: 2px;
+}
+
+input {
+  font-family: inherit;
+  color: #d4af7f;
+  background: rgba(30, 0, 60, 0.6);
+  border: 1px solid #6600cc;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+input:focus,
+input:focus-visible {
+  outline: none;
+  border-color: #8800ee;
+  box-shadow: 0 0 10px rgba(136, 0, 238, 0.3);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
