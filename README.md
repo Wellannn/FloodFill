@@ -1,3 +1,5 @@
+[![CI](https://github.com/Wellannn/FloodFill/actions/workflows/ci.yml/badge.svg)](https://github.com/Wellannn/FloodFill/actions/workflows/ci.yml)
+
 # Flood Fill Visualization
 
 Interactive React application implementing the flood fill algorithm with functional programming principles and comprehensive test coverage.
